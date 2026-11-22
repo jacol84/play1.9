@@ -5,7 +5,7 @@ self: play -> play $version
 # Don't follow transitive dependencies for this project
 transitiveDependencies: false
 
-# This core dependencies are required by Play framework
+# This core dependencies are required by Play framework 1.9
 require:    &allDependencies
     - antlr 2.7.7
     - com.mchange -> c3p0 0.10.2
